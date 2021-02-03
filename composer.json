@@ -1,0 +1,46 @@
+{
+    "name": "deryabinsergey/yii2-app-extended",
+    "description": "Yii 2 Extended Project Template",
+    "keywords": ["yii2", "framework", "extended", "project template"],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/DeryabinSergey/yii2-app-extended/issues?state=open",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "source": "https://github.com/DeryabinSergey/yii2-app-extended"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4.0",
+        "yiisoft/yii2": "~2.0.38",
+        "yiisoft/yii2-swiftmailer": "~2.1.0",
+        "yiisoft/yii2-bootstrap4": "^2.0",
+        "rmrevin/yii2-fontawesome": "~3.5"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.1.0",
+        "yiisoft/yii2-gii": "~2.1.0",
+        "yiisoft/yii2-faker": "~2.0.0",
+        "codeception/codeception": "^4.1",
+        "codeception/module-asserts": "^1.0",
+        "codeception/module-yii2": "^1.0",
+        "codeception/module-filesystem": "^1.0",
+        "codeception/verify": "~0.5.0 || ~1.1.0",
+        "symfony/browser-kit": ">=2.7 <=4.2.4",
+        "codeception/module-webdriver": "^1.1"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
